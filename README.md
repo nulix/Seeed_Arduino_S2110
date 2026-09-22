@@ -1,5 +1,8 @@
 # Build Your Own LoRaWAN Sensor With SenseCAP S2110 XIAO LoRaWAN SensorBuilder
 
+> [!WARNING]
+> This is a **forked library**. All default sensors have been **disabled** in `src/sensorBuilder.hpp` (BMP280, BME688, CO2, Sunlight, MultiGas, Light, Flame, O2, UV, Turbidity, TDS, Ultrasonic). The only enabled sensor is the **BME280**, added via `src/sensor/sensorBME280.hpp`. Check the `examples/sensorBuilder-BME280` for details.
+
 This is the source code for [SenseCAP S2110 XIAO LoRaWAN SensorBuilder](https://www.seeedstudio.com/SenseCAP-XIAO-LoRaWAN-Controller-p-5474.html) and it provides an open-source tool to build your own LoRaWAN sensors.
 
 ## Hardware Set Up
@@ -235,4 +238,3 @@ void setup()
 </tbody>
 </table>
 > Modbus register addresses 0x0000 to 0x0003 are reserved for storing module system information, where 0x0000 is the modbus address with a default value of 1 and a maximum value of 247, 0x0001 is the serial port baud rate with a default value of 96 (corresponding to 9600), and 0x0002 to 0x0003 are for software version.
-

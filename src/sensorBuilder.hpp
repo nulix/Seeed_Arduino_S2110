@@ -6,18 +6,19 @@
 #include "sensorClass.hpp"
 #include <map>
 
-#include "sensor/sensorBMP280.hpp"
-#include "sensor/sensorBME688.hpp"
-#include "sensor/sensorCO2.hpp"
-#include "sensor/sensorSunlight.hpp"
-#include "sensor/sensorMultiGas.hpp"
-#include "sensor/sensorLight.hpp"
-#include "sensor/sensorFlame.hpp"
-#include "sensor/sensorO2.hpp"
-#include "sensor/sensorUV.hpp"
-#include "sensor/sensorTurbidity.hpp"
-#include "sensor/sensorTDS.hpp"
-#include "sensor/sensorUltrasonic.hpp"
+#include "sensor/sensorBME280.hpp"
+//#include "sensor/sensorBMP280.hpp"
+//#include "sensor/sensorBME688.hpp"
+//#include "sensor/sensorCO2.hpp"
+//#include "sensor/sensorSunlight.hpp"
+//#include "sensor/sensorMultiGas.hpp"
+//#include "sensor/sensorLight.hpp"
+//#include "sensor/sensorFlame.hpp"
+//#include "sensor/sensorO2.hpp"
+//#include "sensor/sensorUV.hpp"
+//#include "sensor/sensorTurbidity.hpp"
+//#include "sensor/sensorTDS.hpp"
+//#include "sensor/sensorUltrasonic.hpp"
 
 #define SENSOR_BUILDER_DEF_BAUD 9600
 #define SENSOR_BUILDER_DEF_SLAVE 1
